@@ -211,7 +211,8 @@ border: transparent;
     background-color: rgba(0,0,0,0.2);
     opacity: 1;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: 9;}
+    z-index: 9;
+}
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
@@ -487,7 +488,6 @@ text-align: center;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    
 }
 
 .footer-item {
@@ -530,9 +530,6 @@ text-align: center;
 .logo-footer-web {
     color: #ffffff;
 }
-
-
-
 
 /* Футер "Присоединяйтесь" */
 .footer-container {
@@ -581,7 +578,6 @@ text-align: center;
     fill: currentColor;
 }
 
-
 /* ПОРТФОЛИО */
 
 }
@@ -620,7 +616,6 @@ text-align: center;
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 
 
 /* Примеры работ */
@@ -668,11 +663,12 @@ margin-top: 4px;
     color: var(--title-text-color);
     border-top: none;
 }
+
+/* Overlay */
 .link-overlay {
     position: relative;
     overflow: hidden;
 }
-
 
 .link-filter:hover .text-positions,
 .link-filter:focus .text-positions{
