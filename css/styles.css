@@ -135,6 +135,9 @@ color: var(--primary-text-color);
 position: relative;
 color: #2196F3;
 }
+.link.current {
+    color: var(--accent-color);
+}
 .current::after {
 content: '';
 position: absolute;
