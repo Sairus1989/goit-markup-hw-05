@@ -63,17 +63,14 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="main-button" data-modal-open>Заказать услугу</button>
-          <div class="backdrop is-hidden">
-            <div class="modal" data-modal>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Itaque quas facilis inventore amet, 
-                quam ipsa ullam adipisci earum consequuntur 
-                rerum quia dolores vel est quod optio. 
-                Quas nesciunt quia incidunt.
-              </p>
-              <button data-modal-close>Закрыть</button>
+          <button data-modal-open type="button" class="main-button">Заказать услугу</button>
+          <div data-modal class="backdrop is-hidden">
+            <div class="modal">
+              <button class="close-modal" data-modal-close>
+                <svg width="11px" height="11px" class="icon-modal">
+                  <use href=".//images/icons.svg#icon-clousemodal"></use>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
