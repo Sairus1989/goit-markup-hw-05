@@ -711,6 +711,7 @@ margin-top: 4px;
 }
 
 .link-filter {
+    
     display: block;
     transition: box-shadow 250ms var(--timing-function),
     transform 250ms var(--timing-function);
@@ -731,5 +732,6 @@ margin-top: 4px;
     color: #FFFFFF;
     background-color: rgba(33, 150, 243, 0.9);
     transform: translatey(101%);
+    transition: 250ms var(--timing-function);
 }
     
