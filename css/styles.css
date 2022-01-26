@@ -646,6 +646,9 @@ text-align: center;
     border-radius: 4px;
     border: none;
     padding: 6px 22px;
+    transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 .filter:hover,
 .filter:focus {
@@ -706,15 +709,12 @@ margin-top: 4px;
 
 .link-filter:hover .text-positions,
 .link-filter:focus .text-positions{
-    transition: transform 250ms var(--timing-function);
     transform: translatey(0);
 }
 
 .link-filter {
-    
     display: block;
-    transition: box-shadow 250ms var(--timing-function),
-    transform 250ms var(--timing-function);
+    transition: box-shadow 250ms var(--timing-function);
 }
 .text-positions {
     position: absolute;  
